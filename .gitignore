@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+sd-env/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Model and cache files
+.cache/
+cache/
+models/
+outputs/
+huggingface/
+.huggingface/
+
+# Large generated files
+*.zip
+*.tar
+*.tar.gz
+
+# Secrets
+.env
+*.token
